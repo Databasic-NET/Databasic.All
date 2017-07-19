@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata minClientVersion="2.6">
 		<id>Databasic</id>
-		<version>1.0.0.0</version>
+		<version>1.1.0.0</version>
 		<title>Databasic</title>
 		<authors>Tom Flidr</authors>
 		<owners>Tom Flidr</owners>
@@ -12,21 +12,18 @@
 		<language>en-US</language>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>
-      Databasic - C#/VB.NET database utility
-      - focusing on queries primarily based on pure SQL commands, no linq transations
-      - arranging data into primitive types, typed active record classes, collections and more
-      - allowing to run any nonselect queries
-      This package contains references to all database provider libraries (dll).
-      You can use this package as you wish, but if you want to use 
-      only a specific database type, install package like:
-      - Databasic&#60;DatabaseType&#62;
+      C#/VB.NET database utility to write pure Microsoft SQL/MySQL queries and load data into environment variables and instances.
+      This package contains references to all database provider libraries (dll files).
+      You can use this package as you wish, but if you want to use only a specific database type, install package like: Databasic&#60;DatabaseType&#62;
     </description>
 		<copyright>Copyright ©	2017</copyright>
 		<tags>sql database select selecting query queries commands mssql tool utility</tags>
 		<dependencies>
-      <dependency id="Databasic" version="1.0.0.0" />
-      <dependency id="Databasic.MsSql" version="1.0.0.0" />
-      <dependency id="Databasic.MySql" version="1.0.0.0" />
+      <dependency id="Databasic.Core" version="1.1.0.0" />
+      <dependency id="Databasic.MsSql" version="1.1.0.0" />
+      <dependency id="Databasic.MySql" version="1.1.0.0" />
+			<dependency id="Databasic.PostgreSql" version="1.1.0.0" />
+			<dependency id="Databasic.SQLite" version="1.1.0.0" />
 		</dependencies>
 		<releaseNotes>https://github.com/databasic-net/databasic/releases</releaseNotes>
 	</metadata>

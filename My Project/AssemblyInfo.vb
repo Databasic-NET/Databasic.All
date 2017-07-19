@@ -25,7 +25,7 @@ only a specific database type, install package like:
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("b0bbc94e-6604-4e57-8d72-753653c80577")> 
+<Assembly: Guid("b0bbc94e-6604-4e57-8d72-753653c80577")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -38,5 +38,5 @@ only a specific database type, install package like:
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.0")> 
-<Assembly: AssemblyFileVersion("1.0.0.0")> 
+<Assembly: AssemblyVersion("1.1.0.0")>
+<Assembly: AssemblyFileVersion("1.1.0.0")>
