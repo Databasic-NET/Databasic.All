@@ -9,5 +9,5 @@ This package contains references to all database provider libraries:
 - Microsoft SQL
 - MySql
 - PostgreSql
-- OracleSql
 - SQLite
+- OracleSql (in progress)
