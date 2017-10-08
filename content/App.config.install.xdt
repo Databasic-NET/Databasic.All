@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
   <connectionStrings xdt:Transform="InsertIfMissing">
-    <clear xdt:Transform="InsertIfMissing" />
-    <add
-      name="Databasic.Example.MsSql"
-      connectionString="Data Source=.\SQLEXPRESS;Initial Catalog=DATABASE_NAME;Persist Security Info=True;User ID=USER_NAME;Password=PASSWORD"
-      providerName="System.Data.SqlClient"
-      xdt:Transform="InsertIfMissing" 
-      xdt:Locator="Match(name)" />
-    <add
-      name="Databasic.Example.MySql"
-      connectionString="server=127.0.0.1;uid=USER_NAME;pwd=1234;database=PASSWORD;"
-      providerName="MySql.Data.MySqlClient"
-      xdt:Transform="InsertIfMissing"
-      xdt:Locator="Match(name)" />
+ <clear xdt:Transform="InsertIfMissing" />
+ <add
+   name="Databasic.Example.MsSql"
+   connectionString="Data Source=.\SQLEXPRESS;Initial Catalog=DATABASE_NAME;Persist Security Info=True;User ID=USER_NAME;Password=PASSWORD"
+   providerName="System.Data.SqlClient"
+   xdt:Transform="InsertIfMissing" 
+   xdt:Locator="Match(name)" />
+ <add
+   name="Databasic.Example.MySql"
+   connectionString="server=127.0.0.1;uid=USER_NAME;pwd=1234;database=PASSWORD;"
+   providerName="MySql.Data.MySqlClient"
+   xdt:Transform="InsertIfMissing"
+   xdt:Locator="Match(name)" />
   </connectionStrings>
 </configuration>
