@@ -104,22 +104,6 @@
     <None Include="_CreateNewNuGetPackage\DoNotModify\NuGet.exe" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Databasic.MsSql\Databasic.MsSql.vbproj">
-      <Project>{147b4c21-acce-445c-b4b6-7fa2c497efc9}</Project>
-      <Name>Databasic.MsSql</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Databasic.MySql\Databasic.MySql.vbproj">
-      <Project>{5d0e33d9-4322-4d2d-941a-49563d249613}</Project>
-      <Name>Databasic.MySql</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Databasic.PgSql\Databasic.PostgreSql.vbproj">
-      <Project>{947da57a-6291-4038-9e95-53a36191209c}</Project>
-      <Name>Databasic.PostgreSql</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Databasic.SQLite\Databasic.SQLite.vbproj">
-      <Project>{454ed0d6-a5b9-449a-877f-99919f675c29}</Project>
-      <Name>Databasic.SQLite</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Databasic\Databasic.vbproj">
       <Project>{063224ab-bc4c-49eb-838f-7fb115bd496c}</Project>
       <Name>Databasic</Name>
