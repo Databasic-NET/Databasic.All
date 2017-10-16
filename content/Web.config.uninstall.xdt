@@ -1,17 +1,47 @@
 <?xml version="1.0"?>
 <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
-  <connectionStrings>
- <add
-   name="Databasic.Example.MsSql"
-   connectionString="Data Source=.\SQLEXPRESS;Initial Catalog=DATABASE_NAME;Persist Security Info=True;User ID=USER_NAME;Password=PASSWORD"
-   providerName="System.Data.SqlClient"
-   xdt:Transform="Remove"
-   xdt:Locator="Match(name)" />
- <add
-   name="Databasic.Example.MySql"
-   connectionString="server=127.0.0.1;uid=USER_NAME;pwd=1234;database=PASSWORD;"
-   providerName="MySql.Data.MySqlClient"
-   xdt:Transform="Remove"
-   xdt:Locator="Match(name)" />
-  </connectionStrings>
+	<connectionStrings>
+		<add
+		  name="Databasic.Example.MsSql"
+		  connectionString="Data Source=.\SQLEXPRESS;Initial Catalog=DATABASE;User ID=USER_NAME;Password=PASSWORD;Persist Security Info=True;"
+		  providerName="System.Data.SqlClient"
+		  xdt:Transform="Remove"
+		  xdt:Locator="Match(name)" />
+		<add
+		  name="Databasic.Example.MySql"
+		  connectionString="server=localhost;port=3306;uid=USER_NAME;pwd=PASSWORD;database=DATABASE;"
+		  providerName="MySql.Data.MySqlClient"
+		  xdt:Transform="Remove"
+		  xdt:Locator="Match(name)" />
+		<add
+		  name="Databasic.Example.Oracle"
+		  connectionString="Data Source=localhost/orcl;User Id=USER_NAME;Password=PASSWORD;Integrated Security=yes"
+		  providerName="Oracle.DataAccess.Client"
+		  xdt:Transform="Remove"
+		  xdt:Locator="Match(name)" />
+		<add
+		  name="Databasic.Example.PqSql"
+		  connectionString="Server=localhost;Port=5432;Database=DATABASE;User Id=USER_NAME;Password=PASSWORD;"
+		  providerName="Npgsql"
+		  xdt:Transform="Remove"
+		  xdt:Locator="Match(name)" />
+		<add
+		  name="Databasic.Example.SQLite"
+		  connectionString="Data Source=.\sqlite.db;Version=3;Password=PASSWORD;"
+		  providerName="SQLite.Data.SQLite"
+		  xdt:Transform="Remove"
+		  xdt:Locator="Match(name)" />
+		<add
+		  name="Databasic.Example.OdbcSql"
+		  connectionString="Driver={ODBC_DRIVER_NAME};Server=SERVER_HOST;UID=USER_NAME;PWD=PASSWORD;Database=DATABASE"
+		  providerName="System.Data.Odbc"
+		  xdt:Transform="Remove"
+		  xdt:Locator="Match(name)" />
+		<add
+		  name="Databasic.Example.OleSql"
+		  connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\PathToYour\Database.mdb;User Id=admin;Password=1234;"
+		  providerName="System.Data.OleDb"
+		  xdt:Transform="Remove"
+		  xdt:Locator="Match(name)" />
+	</connectionStrings>
 </configuration>
