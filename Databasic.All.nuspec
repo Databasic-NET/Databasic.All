@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata minClientVersion="2.6">
     <id>Databasic</id>
-    <version>1.2.0.0</version>
+    <version>1.2.4.0</version>
     <title>Databasic</title>
     <authors>Tom Flidr</authors>
     <owners>Tom Flidr</owners>
@@ -19,13 +19,14 @@
     <copyright>Copyright ©	2017</copyright>
     <tags>microsoft sql mssql postgres oracle sqlite tsql mssql database query command select insert update delete dml tool utility</tags>
     <dependencies>
-      <dependency id="Databasic.Core" version="1.2.0.0" />
-      <dependency id="Databasic.MsSql" version="1.2.0.0" />
-      <dependency id="Databasic.MySql" version="1.2.0.0" />
-      <dependency id="Databasic.PostgreSql" version="1.2.0.0" />
-      <dependency id="Databasic.OracleSql" version="1.2.0.0" />
-      <dependency id="Databasic.SQLite" version="1.2.0.0" />
-	  <dependency id="Databasic.ODBC" version="1.2.0.0" />
+      <dependency id="Databasic.Core" version="1.2.1.0" />
+      <dependency id="Databasic.MsSql" version="1.2.1.0" />
+      <dependency id="Databasic.MySql" version="1.2.1.0" />
+      <dependency id="Databasic.PostgreSql" version="1.2.1.0" />
+      <dependency id="Databasic.OracleSql" version="1.2.1.0" />
+      <dependency id="Databasic.SQLite" version="1.2.1.0" />
+	  <dependency id="Databasic.OdbcSql" version="1.2.1.0" />
+	  <dependency id="Databasic.OleSql" version="1.2.1.0" />
     </dependencies>
     <releaseNotes>https://github.com/databasic-net/databasic/releases</releaseNotes>
   </metadata>
