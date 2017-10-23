@@ -38,5 +38,5 @@ only a specific database type, install package like:
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.2.4.0")>
-<Assembly: AssemblyFileVersion("1.2.4.0")>
+<Assembly: AssemblyVersion("1.2.5.0")>
+<Assembly: AssemblyFileVersion("1.2.5.0")>
