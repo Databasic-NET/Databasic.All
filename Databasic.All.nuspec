@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata minClientVersion="2.6">
 		<id>Databasic</id>
-		<version>1.2.8.0</version>
+		<version>1.2.9.3</version>
 		<title>Databasic - All</title>
 		<authors>Tom Flidr</authors>
 		<owners>Tom Flidr</owners>
@@ -21,14 +21,14 @@
 		<copyright>Copyright © 2017</copyright>
 		<tags>microsoft sql mssql tsql mysql mariadb postgresql postgres oracle orcl sqlite odbc ole oledb database query command select insert update delete pure sql dml tool utility library</tags>
 		<dependencies>
-			<dependency id="Databasic.Core" version="1.2.7.0" />
-			<dependency id="Databasic.MsSql" version="1.2.7.0" />
-			<dependency id="Databasic.MySql" version="1.2.7.0" />
-			<dependency id="Databasic.PostgreSql" version="1.2.7.0" />
-			<dependency id="Databasic.OracleSql" version="1.2.7.0" />
-			<dependency id="Databasic.SQLite" version="1.2.7.0" />
-			<dependency id="Databasic.OdbcSql" version="1.2.7.0" />
-			<dependency id="Databasic.OleSql" version="1.2.7.0" />
+			<dependency id="Databasic.Core" version="1.2.9.3" />
+			<dependency id="Databasic.MsSql" version="1.2.9.3" />
+			<dependency id="Databasic.MySql" version="1.2.9.3" />
+			<dependency id="Databasic.PostgreSql" version="1.2.9.3" />
+			<dependency id="Databasic.OracleSql" version="1.2.9.3" />
+			<dependency id="Databasic.SQLite" version="1.2.9.3" />
+			<dependency id="Databasic.OdbcSql" version="1.2.9.3" />
+			<dependency id="Databasic.OleSql" version="1.2.9.3" />
 		</dependencies>
 		<releaseNotes>https://github.com/Databasic-NET/Databasic/releases</releaseNotes>
 	</metadata>
